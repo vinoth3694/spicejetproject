@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test thread-count="5" name="chromeTest">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="capstone.spicejet.utils.SeWrappers" />
+			<class name="capstone.spicejet.utils.SJwrappers" />
+			<class name="capstone.spicejet.utils.Reports" />
+			<class name="capstone.spicejet.tests.LinkVerifyTest" />
+			<class name="capstone.spicejet.tests.SJsignupTest" />
+			<class name="capstone.spicejet.tests.SjetLoginTest" />
+			<class name="capstone.spicejet.tests.SjetLoginTest1" />
+			<class name="capstone.spicejet.tests.OnewayTest" />
+			<class name="capstone.spicejet.tests.RoundtripTest" />
+			<class name="capstone.spicejet.tests.CheckinTest" />
+			<class name="capstone.spicejet.tests.FlightStatusTest" />
+			<class name="capstone.spicejet.tests.ManageBookingTest" />
+
+
+		</classes>
+	</test> <!--
+	Test -->
+
+	<test thread-count="5" name="EdgeTest">
+		<parameter name="browser" value="edge"></parameter>
+		<classes>
+			<class name="capstone.spicejet.utils.SeWrappers" />
+			<class name="capstone.spicejet.utils.SJwrappers" />
+			<class name="capstone.spicejet.utils.Reports" />
+			<class name="capstone.spicejet.tests.LinkVerifyTest" />
+			<class name="capstone.spicejet.tests.SJsignupTest" />
+			<class name="capstone.spicejet.tests.SjetLoginTest" />
+			<class name="capstone.spicejet.tests.OnewayTest" />
+			<class name="capstone.spicejet.tests.RoundtripTest" />
+			<class name="capstone.spicejet.tests.CheckinTest" />
+			<class name="capstone.spicejet.tests.FlightStatusTest" />
+			<class name="capstone.spicejet.tests.ManageBookingTest" />
+
+		</classes>
+	</test> <!--
+	Test -->
+</suite> <!--
+Suite -->
